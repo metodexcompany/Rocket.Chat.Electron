@@ -3,15 +3,15 @@
   "workspaces": [
     "workspaces/*"
   ],
-  "productName": "Rocket.Chat",
+  "productName": "Metodex.Chat",
   "name": "rocketchat",
-  "description": "Official OSX, Windows, and Linux Desktop Clients for Rocket.Chat",
+  "description": "Metodex.Chat Desktop Client",
   "version": "4.13.0",
-  "author": "Rocket.Chat Support <support@rocket.chat>",
-  "copyright": "© 2016-2026, Rocket.Chat",
-  "homepage": "https://rocket.chat",
+  "author": "Metodex <support@metodex.chat>",
+  "copyright": "© 2026, Metodex",
+  "homepage": "https://metodex.chat",
   "license": "MIT",
-  "goUrlShortener": "go.rocket.chat",
+  "goUrlShortener": "",
   "keywords": [
     "rocketchat",
     "desktop",

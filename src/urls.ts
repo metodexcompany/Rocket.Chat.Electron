@@ -1,12 +1,12 @@
 // This module contains all the urls used in the app
 
 export const rocketchat = {
-  site: 'https://rocket.chat',
+  site: 'https://metodex.chat',
   subdomain: <T extends string>(subdomain: T) =>
-    `https://${subdomain}.rocket.chat` as const,
+    `https://${subdomain}.metodex.chat` as const,
 } as const;
 
-export const open = rocketchat.subdomain('open');
+export const open = 'https://localhost:3000' as const;
 
 export const supportedVersions = ({
   domain,
@@ -34,7 +34,7 @@ export const server = <T extends string>(serverUrl: T) =>
   }) as const;
 
 export const docs = {
-  index: 'https://docs.rocket.chat/', // TODO: should it be a go link?
-  supportedVersions: 'https://go.rocket.chat/i/supported-versions',
-  newIssue: 'https://github.com/RocketChat/Rocket.Chat/issues/new', // TODO: should it be a go link?
+  index: 'https://metodex.chat/docs/',
+  supportedVersions: 'https://metodex.chat/supported-versions',
+  newIssue: 'https://github.com/metodexcompany/Rocket.Chat.Electron/issues/new',
 } as const;
